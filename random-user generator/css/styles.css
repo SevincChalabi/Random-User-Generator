@@ -1,0 +1,57 @@
+body {
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+    display:flex;
+    height: 100vh;
+    background-color: coral;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    
+   
+}
+
+
+.container{
+    width: 390px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content:center;
+    align-items:center;
+    border-radius: 10px;
+    
+}
+
+
+h1 {
+    color: rgb(00,00,00);
+    font-size: 25px;
+}
+
+#user-button{
+    padding: 20px;
+    background-color: rgb(253, 122, 122);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+#user-button:active{
+    background-color: rgb(199,113,133);
+    color: rgb(224,223,223);
+}
+
+#phone{
+    color: black;
+}
+
+#profile-image{
+    width: 90px;
+    border-radius: 40px;
+   
+}
